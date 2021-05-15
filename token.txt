@@ -1,1 +1,1 @@
-ae88620386998b4905d748f962bdc9d10c1accb674d56ec1d14eabd7352f36db635b8f57736ddadce8959
+// here must be your VK API token as a fallback
