@@ -1,7 +1,7 @@
 # vk_dataBot
 Run main.py file, all required libs are in **venv**. Use command like **venv/bin/python3.8 main.py**. Command **python3 main.py** won't work if you don't have required libs<br>  
-Bot saved one data container from user and can send it where user send to bot "!get"
-Connected to [VK](https://vk.com/) community(group) by api token, the dafault token's place is envinronment variable "VKKEY"<br>
+Bot saves one data container from user and can send it when user send to bot "!get"
+Bot onnects to [VK](https://vk.com/) community(group) by api token, the default token's place is envinronment variable "VKKEY"<br>
 Bot takes commands:
 1. **!r** - to register new user
 2. **!put** - to add new data
@@ -11,6 +11,6 @@ Bot takes commands:
 ***Errors***
 1. **"vk_api.exceptions.ApiError: [5] User authorization failed: invalid access_token (4)"**
 It means you don't have api token or api token is invalid. If environment variable "VKKEY" doesn't exists programm will attempt to get it from **token.txt** file.
-In rest case - you have invalid api token. Api token will be taken from **Manage>API usage>Access tokens**
+In rest case - you have invalid api token. Api token will be taken from **Manage>API usage>Access tokens** from your community.
 2. **vk_api.exceptions.ApiError: [15] Access denied: group messages are disabled**
 It means your community doesn't allow to use messages. To fix it **Manage>Messages>Community messages** and turn it up Enable
