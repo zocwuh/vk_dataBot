@@ -1,5 +1,5 @@
 # vk_dataBot
-Run main.py file<br>  
+Run main.py file, all required libs are in **venv** <br>  
 Bot saved one data container from user and can send it where user send to bot "!get"
 Connected to [VK](https://vk.com/) community(group) by api token, the dafault token's place is envinronment variable "VKKEY"<br>
 Bot takes commands:
