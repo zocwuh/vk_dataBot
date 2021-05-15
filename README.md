@@ -1,5 +1,6 @@
 # vk_dataBot
 Run main.py file, all required libs are in **venv**. Use command like **venv/bin/python3.8 main.py**. Command **python3 main.py** won't work if you don't have required libs<br>  
+## description
 Bot saves one data container from user and can send it when user send to bot "!get"
 Bot onnects to [VK](https://vk.com/) community(group) by api token, the default token's place is envinronment variable "VKKEY"<br>
 Bot takes commands:
@@ -8,7 +9,7 @@ Bot takes commands:
 3. **!get** - to get user data
 4. **!d** - to stop escort user <br><br>
 
-***Errors***
+## Errors
 1. **"vk_api.exceptions.ApiError: [5] User authorization failed: invalid access_token (4)"**
 It means you don't have api token or api token is invalid. If environment variable "VKKEY" doesn't exists programm will attempt to get it from **token.txt** file.
 In rest case - you have invalid api token. Api token will be taken from **Manage>API usage>Access tokens** from your community.
