@@ -11,7 +11,7 @@ Bot takes commands:
 
 ## Errors
 1. **"vk_api.exceptions.ApiError: [5] User authorization failed: invalid access_token (4)"**
-It means you don't have api token or api token is invalid. If environment variable "VKKEY" doesn't exists programm will attempt to get it from **token.txt** file.
+It means you don't have api token or api token is invalid. If environment variable "VKKEY" doesn't exists programm will attempt to get api token from **token.txt** file.
 In rest case - you have invalid api token. Api token will be taken from **Manage>API usage>Access tokens** from your community.
 2. **vk_api.exceptions.ApiError: [15] Access denied: group messages are disabled**
 It means your community doesn't allow to use messages. To fix it **Manage>Messages>Community messages** and turn it up Enable
