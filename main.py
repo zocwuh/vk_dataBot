@@ -6,7 +6,13 @@ from user_base import *
 from random import getrandbits
 
 # init api and connection
-TOKEN = os.environ["VKKEY"]
+try:
+    TOKEN = os.environ["VKKEY"]
+except KeyError:
+    with open("token.txt", "rt") as file:
+        TOKEN = file.read()
+
+
 api = vk_api.VkApi(token=TOKEN)
 lp = VkLongPoll(api)
 
