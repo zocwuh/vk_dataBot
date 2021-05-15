@@ -1,7 +1,7 @@
 # vk_dataBot
 Run main.py file, all required libs are in **venv**. Use command like **venv/bin/python3.8 main.py**. Command **python3 main.py** won't work if you don't have required libs<br>  
 ## description
-Bot saves one data container from user and can send it when user send to bot "!get"
+Bot saves one data container from user and can send it when user send to bot "!get"  
 Bot onnects to [VK](https://vk.com/) community(group) by api token, the default token's place is envinronment variable "VKKEY"<br>
 Bot takes commands:
 1. **!r** - to register new user
